@@ -15,7 +15,6 @@ end
 
 def assign_rooms(speakers, rooms)
   messages = []
-  index = 0
   messages.each_with_index.map do |speaker, index|
     messages.push("Hello, #{speaker}! You'll be assigned to room #{index + 1}!")
   end
